@@ -349,10 +349,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "ClickSales";
+    _name = "Live Coin";
     _symbol = "Live";
     _decimals = 18;
-    _totalSupply = 25000000000000000000000000000;
+    _totalSupply = 27000000000000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
